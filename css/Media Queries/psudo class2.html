@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            font-size:16px;
+            color:black;
+        }
+        li:nth-child(even){
+            color:violet;
+        }
+        li:nth-child(3n){
+            color: gold;
+        }
+        p::before{
+            content:"$";
+        }
+        p::after{
+            content:"$";
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>hi</li>
+        <li>bro</li>
+        <li>you</li>
+        <li>are</li>
+        <li>dum</li>
+        <li>enough!</li>
+    </ul>
+    <hr>
+    <p class="name">VR</p>
+</body>
+</html>
